@@ -26,12 +26,13 @@ theme
 The directories in this repo are organized as follows:
 
 ```bash
-engmod
+feabench
     ├── common
         ├── agents  # Code pertaining to the Corrector and ToolLookup `subagents` and Tools.
         ├── eval  # Code to evaluate results
         └── remote_service  # Code to set up the MPHClient
     ├── generate_feabench_large  # Code to segment tutorial pdfs and JAVA files
+    ├── data  # Data for the benchmark.
 ```
 
 ## Inference Workflow
