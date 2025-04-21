@@ -1,0 +1,4 @@
+# The SHA 256 sum generated using command:
+# sha256sum benchmark.zip
+5b59331c0f3d7ea164e4cbcf0b720e69a86b3e0e5fbc34333fb01c7ff7e511c3  benchmark.zip
+
