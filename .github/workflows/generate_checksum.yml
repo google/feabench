@@ -1,0 +1,27 @@
+name: Generate Zip Checksums
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  checksum:
+    name: Generate Checksums for Zip Files
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Generate checksum for zip files
+        uses: jmgilman/actions-generate-checksum@v1
+        with:
+          patterns: |
+            data/*.zip
+
+      # Optional: Upload the checksum file as an artifact
+      - name: Upload checksum artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: checksums
+          path: checksum.txt
+
