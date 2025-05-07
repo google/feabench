@@ -1,6 +1,6 @@
-# FEABench: Evaluating Language Models on Real-World Physics Reasoning Ability
+# FEABench: Evaluating Language Models on Multiphysics Reasoning Ability
 
-[**FEABench: Evaluating Language Models on Real-World Physics Reasoning Ability**](https://arxiv.org/abs/2504.06260)
+[**FEABench: Evaluating Language Models on Multiphysics Reasoning Ability**](https://arxiv.org/abs/2504.06260)
 
 Nayantara Mudur, Hao Cui, Subhashini Venugopalan, Paul Raccuglia, Michael Brenner, Peter Norgaard
 
