@@ -1,14 +1,14 @@
 # FEABench: Evaluating Language Models on Real-World Physics Reasoning Ability
 
-[**FEABench: Evaluating Language Models on Real-World Physics Reasoning Ability**](https://arxiv.org/abs/2411.xxxxx)
+[**FEABench: Evaluating Language Models on Real-World Physics Reasoning Ability**](https://arxiv.org/abs/2504.06260)
 
 Nayantara Mudur, Hao Cui, Subhashini Venugopalan, Paul Raccuglia, Michael Brenner, Peter Norgaard
 
 ## Datasets
 The datasets are organized as follows:
 ### Benchmark / Evaluation Datasets
-1. [FEABench Gold](hflink)
-2. [FEABench Large](hflink): This is a CSV file containing the application ids, URLs and titles of the 200 problems we evaluated on. The code to generate the inputs and outputs is in `generate_feabench_large`.
+1. [FEABench Gold]()
+2. [FEABench Large](): This is a CSV file containing the application ids, URLs and titles of the 200 problems we evaluated on. The code to generate the inputs and outputs is in `generate_feabench_large`.
 
 ### Library of Annotated Snippets
 This is a dataset with the following structure
